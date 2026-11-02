@@ -13,7 +13,7 @@
     <img src="logo.png" alt="Logo CyberBob in The Mix">
     <div>
       <h1>Règles de confidentialité</h1>
-      <p class="sub">CyberBob Creator Hub — application Google « CyberBob SEO Studio » · en vigueur au 1<sup>er</sup> novembre 2026 (remplace la version du 23 septembre 2026)</p>
+      <p class="sub">CyberBob Creator Hub — application Google « CyberBob SEO Studio » · en vigueur au 3 novembre 2026 (remplace la version du 23 septembre 2026)</p>
     </div>
   </header>
   <p class="sub"><a href="#en">English version below</a></p>
@@ -34,16 +34,16 @@
       <li>à la <b>lecture des e-mails</b> de la boîte du propriétaire (Gmail, permission « gmail.readonly »), uniquement pour y repérer les messages envoyés par YouTube et ses partenaires (revendications, mises à jour de la chaîne) ; aucun e-mail n'est modifié, déplacé ni transmis ;</li>
       <li>à la <b>lecture des requêtes</b> de la Search Console du site public des tracklists du propriétaire (permission « webmasters.readonly »).</li>
     </ul>
-    <p>L'application n'accède à aucune donnée d'autres utilisateurs ou d'autres chaînes, et ne collecte aucune donnée personnelle des spectateurs. Les commentaires qu'elle lit sont ceux reçus par la chaîne elle-même.</p>
+    <p>L'application n'accède à aucune donnée privée d'autres utilisateurs ou d'autres chaînes : son radar suit seulement les informations publiques de quelques chaînes comparables. Les commentaires qu'elle lit sont les commentaires publics reçus par la chaîne elle-même (nom d'affichage et texte) : ils sont conservés pour aider le propriétaire à y répondre et à reconnaître ses habitués.</p>
     <h2>Où vont les données, et quelles copies</h2>
     <p>Les données de travail (fiches des vidéos, relevés, revenus, journal des écritures) vivent sur le Mac principal du propriétaire, dans un dossier hors synchronisation. Le propriétaire a choisi d'en tenir des <b>copies</b> :
     un miroir quotidien dans son iCloud (Apple), un dépôt <b>privé</b> sur GitHub, une copie chez pCloud (hébergeur européen) et une sauvegarde Time Machine locale.
     Ces copies ne contiennent jamais les secrets (voir ci-dessous).</p>
     <p>Les <b>autorisations Google</b> (jeton d'accès d'une heure, jeton de renouvellement) et les autres secrets sont stockés dans le Trousseau macOS du propriétaire, ne sont transmis à personne et ne sont versés dans aucune copie ni aucun dépôt de code.</p>
     <h2>Autres services appelés par l'application</h2>
-    <p>Pour fonctionner, l'application envoie certaines informations à des services tiers, toujours sur décision du propriétaire et jamais des données personnelles de spectateurs :</p>
+    <p>Pour fonctionner, l'application envoie certaines informations à des services tiers, toujours sur décision du propriétaire :</p>
     <ul>
-      <li><b>Claude (Anthropic)</b> et <b>Gemini (Google)</b> : le texte des fiches à rédiger ou à classer (titres, descriptions, tracklists, commentaires reçus par la chaîne) ;</li>
+      <li><b>Claude (Anthropic)</b> et <b>Gemini (Google)</b> : le texte des fiches à rédiger ou à classer (titres, descriptions, tracklists) et les commentaires publics reçus par la chaîne, avec parfois le nom d'affichage de leur auteur ;</li>
       <li><b>Telegram</b> : le titre, le lien et la miniature de chaque nouvelle vidéo, publiés sur le canal public de la chaîne ;</li>
       <li><b>Buttondown</b> : le brouillon de la lettre du site des tracklists (jamais envoyé par l'application) ;</li>
       <li><b>ntfy.sh</b> : le texte des alertes techniques destinées au propriétaire (sauvegarde, quota, tâche ratée) ;</li>
@@ -75,14 +75,14 @@
       <li>Gmail (scope "gmail.send") is used only to send a weekly report of the channel to the owner. Gmail (scope "gmail.readonly") is used only to spot messages sent by YouTube and its partners (claims, channel updates) in the owner's own mailbox; no email is modified, moved or forwarded.</li>
       <li>Search Console (scope "webmasters.readonly"): reading the search queries of the owner's public tracklist website.</li>
     </ul>
-    <p>The application never accesses other users' or other channels' data and never collects personal data of viewers. The comments it reads are those received by the channel itself.</p>
+    <p>The application never accesses other users' or other channels' private data: its radar only follows public information about a few comparable channels. The comments it reads are the public comments received by the channel itself (display name and text): they are kept to help the owner reply to them and recognise regular viewers.</p>
     <h2>Where the data lives, and which copies exist</h2>
     <p>Working data (video sheets, reports, revenue, write log) lives on the owner's main Mac, in a folder outside any synchronisation. The owner chose to keep <b>copies</b>: a daily mirror in their iCloud (Apple), a <b>private</b> GitHub repository, a copy at pCloud (European host) and a local Time Machine backup. These copies never contain secrets.</p>
     <p>Google authorizations (one-hour access token, refresh token) and other secrets are stored in the owner's macOS Keychain, never shared and never committed to any copy or code repository.</p>
     <h2>Other services the application calls</h2>
-    <p>To do its work, the application sends some information to third-party services, always at the owner's decision and never viewers' personal data:</p>
+    <p>To do its work, the application sends some information to third-party services, always at the owner's decision:</p>
     <ul>
-      <li><b>Claude (Anthropic)</b> and <b>Gemini (Google)</b>: the text of sheets to write or sort (titles, descriptions, tracklists, comments received by the channel);</li>
+      <li><b>Claude (Anthropic)</b> and <b>Gemini (Google)</b>: the text of sheets to write or sort (titles, descriptions, tracklists) and the public comments received by the channel, sometimes with their author's display name;</li>
       <li><b>Telegram</b>: the title, link and thumbnail of each new video, posted on the channel's public Telegram channel;</li>
       <li><b>Buttondown</b>: the draft of the tracklist website's newsletter (never sent by the application);</li>
       <li><b>ntfy.sh</b>: the text of technical alerts for the owner (backup, quota, failed task);</li>
